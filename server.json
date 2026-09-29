@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.geekmarine/mcp-email-auditor",
+  "description": "Validates domain email MX records and DNS status via Cloudflare DNS-over-HTTPS.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/geekmarine/mcp-email-auditor",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-mx-validator-worker.stubby76.workers.dev/mcp"
+    }
+  ]
+}
